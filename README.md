@@ -1,12 +1,12 @@
-# HomLncFinder Ruminant
-**HomLncFinder** is a pipeline to identify lineage conserved lncRNAs through combination of genome alignment and lncRNA expression loci.
+# Ruminant-homologous-lncRNAs
+**Ruminant-homologous-lncRNAs** is a pipeline to identify lineage conserved lncRNAs through combination of genome alignment and lncRNA expression loci.
 
 If this pipeline or files are helpful for your research please cite the following publication:
 "Systematic identification of lncRNAs in ruminants and their important roles in rumen development" 
 
 ---
 ## 🐑 Example of usage
-Here, we use sheep as the reference genome to show how to use the **HomLncFinder** pipeline to identify lineage conserved lncRNAs.
+Here, we use sheep as the reference genome to show how to use the **Ruminant-homologous-lncRNAs** pipeline to identify lineage conserved lncRNAs.
 
 ---
 ## 💻 Requirements
@@ -46,7 +46,7 @@ Rumen- and horn-specific highly expressed lncRNAs were screened using tau value 
 
 ### 5️⃣ Step 5. Genome alignment.
 A multi-species genome alignment of 14 Ungulate species using sheep as the reference genome.  
-14 Species were listed in file [step5-genome-alignment/03.input-specieslist](https://github.com/GeqinHan/HomLncFinder-Ruminant/tree/main/step5-genome-alignment/03.input-specieslist)
+14 Species were listed in file [step5-genome-alignment/03.input-specieslist](https://github.com/GeqinHan/Ruminant-homologous-lncRNAs/tree/main/step5-genome-alignment/03.input-specieslist)
 1. Get *.hal files of genome alignment between 14 species by **Cactus**.
     ```
     01.whole-genome-alignment
